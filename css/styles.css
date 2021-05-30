@@ -8,7 +8,7 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --accent-button-form: #188CE8
+  --accent-button-form: #188ce8;
   --primary-white-color: #ffffff;
   --button-color: #188ce8;
   --button-color-portfolio: #f5f4fa;
@@ -612,10 +612,6 @@ img {
   height: 86px;
 }
 
-.form-field {
-  display: flex;
-}
-
 .form-title {
   font-weight: bold;
   font-size: 14px;
@@ -836,8 +832,8 @@ img {
 }
 
 .form-field {
-  display: flex;
   flex-direction: column;
+  margin: 0 auto;
   margin-bottom: 20px;
 }
 
@@ -891,7 +887,7 @@ img {
 }
 
 .modal-title {
-  margin: 40px 40px 12px 40px;
+  margin: 40px 39px 12px 41px;
   font-weight: bold;
   font-size: 20px;
   line-height: 1.15;
