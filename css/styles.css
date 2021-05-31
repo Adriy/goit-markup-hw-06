@@ -605,34 +605,53 @@ img {
 }
 
 /* Form */
-.form {
-  display: flex;
-  flex-direction: column;
-  width: 570px;
-  height: 86px;
+.subscription {
+  margin-left: 93px;
 }
 
-.form-title {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
+.footer-title {
+  margin-bottom: 35px;
+}
+
+.subscription-input {
+  width: 358px;
+  height: 50px;
+
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  padding-left: 16px;
+
   color: var(--primary-white-color);
 }
 
-.footer-button {
+.subscription-button {
+  position: relative;
+
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
-  line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 1.87;
+
   letter-spacing: 0.06em;
+  padding: 10px 62px 10px 29px;
+  margin-left: 12px;
   color: var(--primary-white-color);
-  margin: 10px 62px 10px 29px;
   background-color: var(--accent-color);
+  border: none;
+
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+}
+
+.subscription-icon {
+  position: absolute;
+  top: 13px;
+  right: 28px;
 }
 /* ================END FOOTER================== */
 
@@ -828,7 +847,7 @@ img {
 
 /* form */
 .form {
-  padding: 0 39px 20px 41px;
+  padding: 0 39px 0px 41px;
 }
 
 .form-field {
@@ -853,7 +872,7 @@ img {
 
 .label {
   display: inline-block;
-  margin-bottom: 4px;
+  margin: 10px 0 4px 0;
 }
 
 .form-icon {
@@ -870,6 +889,7 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding: 0;
+  /* margin-bottom: 10px; */
   padding-left: 40px;
 
   transition: border 250ms var(--timing-function);
@@ -912,7 +932,8 @@ img {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  margin-bottom: 4px;
+  margin: 10px 0 4px 0;
+  margin-top: 10px;
 
   color: var(--primary-text-color);
 }
@@ -954,17 +975,18 @@ img {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  margin: 0 auto;
-  padding: 10px 55px 10px 56px;
   width: 200px;
   height: 50px;
   cursor: pointer;
 
+  padding: 10px 55px 10px 56px;
+  margin: 0 124px 40px 124px;
+
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-color: var(--accent-color);
+  border: none;
   border-radius: 4px;
 
-  transition: background-color 2250ms var(--timing-function);
+  transition: background-color 250ms var(--timing-function);
 }
 
 .form-button:hover,
