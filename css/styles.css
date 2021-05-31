@@ -609,6 +609,10 @@ img {
   margin-left: 93px;
 }
 
+.subscription-thumb {
+  display: flex;
+}
+
 .footer-title {
   margin-bottom: 35px;
 }
