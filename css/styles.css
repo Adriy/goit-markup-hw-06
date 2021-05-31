@@ -8,7 +8,7 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --accent-button-form: #188ce8;
+  /* --accent-button-form: #188ce8; */
   --primary-white-color: #ffffff;
   --button-color: #188ce8;
   --button-color-portfolio: #f5f4fa;
@@ -651,6 +651,13 @@ img {
   border: none;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition: background-color 250ms var(--timing-function);
+}
+
+.subscription-button:hover,
+.subscription-button:focus {
+  background-color: var(--button-color);
 }
 
 .subscription-icon {
@@ -996,10 +1003,12 @@ img {
 
 .form-button:hover,
 .form-button:focus {
-  background-color: var(--accent-button-form);
+  background-color: var(--button-color);
 }
-/* ================END MODAL WINDOW================== */
+
 .checkbox-link {
   color: var(--accent-color);
   border-bottom: 1px solid var(--accent-color);
 }
+
+/* ================END MODAL WINDOW================== */
