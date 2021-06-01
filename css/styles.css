@@ -863,13 +863,9 @@ img {
   width: 448px;
   height: auto;
   margin: 0 auto;
-
-  outline: 1px solid red;
+  /* 
+  outline: 1px solid red; */
 }
-
-/* .contact-form-thumb {
-  display: flex;
-} */
 
 .contact-form > .form-text:first-child {
   margin-top: 40px;
