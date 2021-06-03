@@ -921,7 +921,18 @@ img {
 .contact-form-input:hover,
 .contact-form-input:focus {
   border: 1px solid var(--accent-color);
-  /* outline: none; */
+}
+
+.contact-form-input:required:focus:not(:placeholder-shown):valid {
+  border-color: #008000;
+}
+
+.contact-form-input:focus:required:not(:placeholder-shown):invalid {
+  border-color: #ff0000;
+}
+
+.contact-form-input::placeholder {
+  color: rgba(0, 0, 0, 0.2);
 }
 
 .contact-form-message {
@@ -989,9 +1000,9 @@ img {
   border-color: var(--accent-color);
 }
 
-.form-checkbox-input:focus + .checkbox-icon {
+/* .form-checkbox-input:focus + .checkbox-icon {
   outline: 2px solid var(--accent-color);
-}
+} */
 
 .checkbox-label {
   font-size: 14px;
