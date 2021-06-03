@@ -859,6 +859,13 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--primary-white-color);
   border-radius: 50%;
+
+  transition: fill 250ms var(--timing-function);
+}
+
+.modal-button:hover,
+.modal-button:focus {
+  fill: var(--accent-color);
 }
 
 /* form */
