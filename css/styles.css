@@ -989,6 +989,10 @@ img {
   border-color: var(--accent-color);
 }
 
+.form-checkbox-input:focus + .checkbox-icon {
+  outline: 2px solid var(--accent-color);
+}
+
 .checkbox-label {
   font-size: 14px;
   line-height: 1.71;
@@ -997,12 +1001,17 @@ img {
 }
 
 .checkbox-link {
+  outline: none;
   font-size: 14px;
   line-height: 1.71;
 
   text-decoration-line: underline;
 
   color: var(--accent-color);
+}
+
+.checkbox-link:focus {
+  outline: 1px solid var(--accent-color);
 }
 
 .contacts-form-btn {
